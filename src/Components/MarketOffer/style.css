@@ -1,0 +1,43 @@
+#MarketOfferContainer{
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cardMarketOffer{
+    background-color: #F7F3E9;
+    width: 256px;
+    border-radius: 8px;
+}
+.imageMarketOffer{
+    width: 256px;
+    height: 200px;
+    position: relative;
+}
+.imageMarketOffer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.descriptionMarketOffer{
+    padding: 22px;
+}
+.hargaMarketOffer{
+    font-weight: 600;
+    color: #F05945;
+}
+.buttonCardMarketOffer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 32px;
+}
+.buttonCardMarketOffer a{
+    padding: 8px 22px;
+    background-color: teal;
+    color: #f1f1f1;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+}

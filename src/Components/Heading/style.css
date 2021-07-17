@@ -1,0 +1,55 @@
+#HeadingContainer{
+    padding-top: 72px;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    flex: 1;
+}
+.heroImage{
+    flex: 1;
+}
+.highlightWord{
+    font-weight: 700;
+    position: relative;
+}
+.highlightWord::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 11px;
+    background-color: #F05945;
+    bottom: 8px;
+    left: 0;
+    z-index: -1;
+}
+.description h2{
+    font-size: 48px;
+    font-weight: 300;
+    font-family: Roboto, Helvetica, Verdana, sans-serif;
+}
+.description p{
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: .8px;
+}
+.description a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px 28px;
+    background: teal;
+    display: inline-block;
+    margin-top: 32px;
+    font-weight: 500;
+    color: #F7F3E9;
+    box-shadow: 2px 2px 8px rgba(50,50,50,.4);
+    border-radius: 8px;
+    transition: .3s;
+}
+.description a:hover{
+    background-color: teal;
+    box-shadow: none;
+}

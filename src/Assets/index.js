@@ -1,0 +1,16 @@
+import Logo from "./Logo/logo.png"
+import ArrowRight from "./Icons/arrowRight.svg"
+import A from "./Images/a.jpg"
+import B from "./Images/b.jpg"
+import C from "./Images/c.jpg"
+import D from "./Images/d.jpg"
+import E from "./Images/e.jpg"
+import AA from "./Images/aa.jpg"
+import BB from "./Images/bb.jpg"
+import CC from "./Images/cc.jpg"
+import DD from "./Images/dd.jpg"
+import EE from "./Images/ee.jpg"
+import FF from "./Images/ff.jpg"
+import GG from "./Images/gg.jpg"
+
+export {Logo,ArrowRight,A,B,C,D,E,AA,BB,CC,DD,EE,FF,GG}

@@ -1,0 +1,19 @@
+#IntroductionContainer{
+    width: 100%;   
+    background-color: #F7F3E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 72px;
+}
+.introductionVideo{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+}
+.introductionDescription{
+    flex: 1;
+    margin: 72px;
+}

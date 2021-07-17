@@ -1,0 +1,50 @@
+#LastProjectContainer{
+    width: 100%;
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lastProjectCard{
+    width: 312px;
+    background-color: #F7F3E9;
+    border-radius: 8px;
+}
+.imageLastProject{
+    width: 312px;
+    height: 200px;
+}
+.imageLastProject img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.descriptionLastProject{
+    margin: 28px;
+}
+.descriptionLastProject p{
+    color: rgba(0,0,0,.8);
+    letter-spacing: .6px;
+    line-height: 150%;
+}
+p.levelLastProject{
+    color: #F05945;
+}
+
+.buttonLastProject{
+    display: flex;
+    justify-content: flex-end;
+}
+.buttonLastProject a{
+    margin-top: 32px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 24px;
+    background-color: teal;
+    color: #f1f1f1;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 8px;
+}
