@@ -1,0 +1,73 @@
+#PostContainer{
+    padding-top: 58px;
+    width: 100%;
+}
+.headingPost{
+    width: 100%;
+    height: 306px;
+}
+.headingPost img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.detailPost{
+    width: 60vw;
+    margin: 48px auto;
+}
+.detailPost h1{
+    text-align: center;
+    font-size: 48px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.detailPost p{
+    font-size: 20px;
+    margin-top: 48px;
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: .8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.alatBahan{
+    background:#F7F3E9;
+    border-radius: 8px;
+    padding: 24px;
+    width: 50vw;
+    margin: auto;
+}
+.cardAlatBahan{
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    height: 96px;
+    background-color: #fefefe;
+    border-radius: 8px;
+}
+.imageAlatBahan{
+    width: 96px;
+    background-color: red;
+    height: 96px;
+}
+.imageAlatBahan img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.deskripsiAlatBahan{
+    flex: 2;
+    padding-left: 20px;
+    border-top-right-radius:8px;
+    border-bottom-right-radius: 8px;
+}
+.deskripsiAlatBahan h3{
+    font-size: 18px;
+    margin: 0;
+}
+.deskripsiAlatBahan p{
+    margin: 0;
+    font-size: 16px;
+    margin-top: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

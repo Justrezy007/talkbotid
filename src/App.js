@@ -1,11 +1,12 @@
 import React from "react";
 import {Home,Tutorial,Purchase,AboutUs} from "./Page"
+import RouterPage from "./RouterPage"
 
 
 const App = () => {
   return (
     <div>
-      <Home />
+      <RouterPage />
     </div>
   );
 };

@@ -1,0 +1,29 @@
+#FilterMarketContainer{
+    margin: 72px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    border-bottom: 1px solid rgba(50,50,50,.5);
+}
+.filterMarketMenu{
+    display: flex;
+}
+.filterMarketType{
+    color: teal;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 12px;
+    background: #F7F3E9;
+    padding: 8px 18px;
+    border-radius: 8px;
+}
+.filterMarketLevel{
+    color:teal;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 12px;
+    background: #F7F3E9;
+    padding: 8px 18px;
+    border-radius: 8px;
+}

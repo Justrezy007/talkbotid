@@ -1,55 +1,52 @@
-#LastProjectContainer{
+#ProjectMenuContainer{
     width: 100%;
-    margin-top: 128px;
+    margin-top: 72px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
-.lastProjectCard{
-    width: 312px;
+.ProjectCard{
+    width: 612px;
+    margin: 18px;
     background-color: #F7F3E9;
     border-radius: 8px;
+    display: flex;
 }
-.imageLastProject{
-    width: 312px;
-    height: 200px;
+.imageProject{
+    flex: 2;
 }
-.imageLastProject img{
+.imageProject img{
     object-fit: cover;
     width: 100%;
     height: 100%;
     border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
-.descriptionLastProject{
-    margin: 28px;
+.descriptionProject{
+    margin: 8px 24px;
+    flex: 3;
 }
-.descriptionLastProject p{
+.descriptionProject p{
     color: rgba(0,0,0,.8);
     letter-spacing: .6px;
     line-height: 150%;
 }
-p.levelLastProject{
+p.levelProject{
     color: #F05945;
 }
 
-.buttonLastProject{
+.buttonProject{
     display: flex;
     justify-content: flex-end;
 }
-.buttonLastProject a{
-    margin-top: 32px;
+.buttonProject a{
     display: inline-block;
     text-decoration: none;
-    padding: 8px 12px 9px 24px;
+    padding: 8px 24px;
     background-color: teal;
     color: #f1f1f1;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 8px;
-}
-.buttonLastProject a svg{
-    width: 26px;
-    vertical-align: sub;
-    margin-left: 8px;
 }

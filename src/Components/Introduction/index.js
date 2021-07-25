@@ -1,12 +1,20 @@
 import React from "react";
 import Style from "./style.css";
-import {A} from "../../Assets"
+import { A } from "../../Assets";
 
 const Introduction = () => {
   return (
     <div id="IntroductionContainer">
       <div className="introductionVideo">
-          <img src={A} width="600px" height="auto"/>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/bS0rRocp0aM"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
       <div className="introductionDescription">
         <h2>Siapakah Kami?</h2>

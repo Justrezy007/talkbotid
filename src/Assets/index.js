@@ -12,5 +12,11 @@ import DD from "./Images/dd.jpg"
 import EE from "./Images/ee.jpg"
 import FF from "./Images/ff.jpg"
 import GG from "./Images/gg.jpg"
+import Drone from "./Images/drone.svg"
+import Instagram from "./Icons/instagram.png"
+import Linkedin from "./Icons/linkedin.png"
+import Facebook from "./Icons/facebook.png"
+import Whatsapp from "./Icons/whatsapp.png"
+import Youtube from "./Icons/youtube.png"
 
-export {Logo,ArrowRight,A,B,C,D,E,AA,BB,CC,DD,EE,FF,GG}
+export {Logo,ArrowRight,A,B,C,D,E,AA,BB,CC,DD,EE,FF,GG,Drone,Instagram,Linkedin,Facebook,Whatsapp,Youtube}

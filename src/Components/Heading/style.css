@@ -1,5 +1,5 @@
 #HeadingContainer{
-    padding-top: 72px;
+    padding-top: 128px;
     width: 80vw;
     margin: auto;
     display: flex;
@@ -11,6 +11,10 @@
 }
 .heroImage{
     flex: 1;
+}
+.heroImage img{
+    width: 90%;
+    padding: 80px;
 }
 .highlightWord{
     font-weight: 700;
@@ -39,7 +43,7 @@
 .description a{
     font-size: 20px;
     text-decoration: none;
-    padding: 12px 28px;
+    padding: 13px 28px;;
     background: teal;
     display: inline-block;
     margin-top: 32px;
@@ -48,6 +52,12 @@
     box-shadow: 2px 2px 8px rgba(50,50,50,.4);
     border-radius: 8px;
     transition: .3s;
+    vertical-align: middle;
+}
+.description a svg{
+    width: 28px;
+    margin-left: 8px;
+    vertical-align: middle;
 }
 .description a:hover{
     background-color: teal;

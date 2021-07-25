@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import { Introduction, ProjectMenu,Filter } from "../../Components";
+import Style from "./style.css";
 
 const Tutorial = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+  return (
+    <div id="TutorialContainer">
+      <Introduction />
+      <div>
+        <Filter />
+        <ProjectMenu />
+      </div>
+    </div>
+  );
+};
 
-export default Tutorial
+export default Tutorial;

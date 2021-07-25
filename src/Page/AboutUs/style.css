@@ -1,0 +1,62 @@
+#AboutUsContainer{
+    padding-top: 72px;
+}
+.aboutUsDescription{
+    width: 80vw;
+    margin: 72px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutUsImage{
+    flex: 1;
+}
+.aboutUsImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.aboutUsDetail{
+    flex:1;
+    margin: 24px 32px;
+}
+.aboutUsDetail h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: teal;
+}
+.aboutUsDetail p{
+    font-size: 18px;
+    letter-spacing: .8px;
+    line-height: 150%;
+}
+.aboutUsExtra{
+    margin-top: 128px;
+    padding: 48px;
+    background-color: #F7F3E9;
+}
+.aboutUsExtra h2{
+    text-align: center;
+    color: teal;
+    font-size: 48px;
+}
+.extraMenuContainer{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.extraMenu{
+    width: 300px;
+    height: 200px;
+    margin: 32px;
+    text-align: center;
+    color: teal;
+}
+.extraMenu img{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}

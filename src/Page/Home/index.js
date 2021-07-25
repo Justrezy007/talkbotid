@@ -1,19 +1,16 @@
 import React from 'react'
 import {
-    Footer,
     Heading,
     LastProject,
     LastTutorial,
     Introduction,
     Map,
     MarketOffer,
-    Navigation,
     Testimony,
   } from "../../Components";
 const Home = () => {
     return (
         <div>
-            <Navigation />
             <Heading />
             <LastTutorial />
             <LastProject />
@@ -21,7 +18,6 @@ const Home = () => {
             <MarketOffer />
             <Testimony />
             <Map />
-            <Footer />
         </div>
     )
 }
